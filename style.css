@@ -1,0 +1,22 @@
+/* Representando margens e padding par todos os <elementos>
+   *{
+      margin:0;/*Remove a margem */
+      padding:0;*/ Remove o preenchimento*/
+      box-sizing: border-box; /* Faz com que o padding e a borda sejm incluidos notamanho do elemento */
+   }
+ </elementos>*
+    /*Estilo para o corpo da páginas */
+    body{
+      font-family:Arial, sans-serif; /* Define a fonte padrão da página */
+      background-color:#4f4f9; */ Cor de fundo suave para o corpo */
+      color;#333; /* Cor do texto, um tom de cinza escuro */
+      line-height: 1.6; /* Altura da linha para facilitar a leitura */
+      padding: 20px; /*Espaçamento interno em torno do conteúdo */
+   
+    }
+
+      /* Estilo para o cabeçalho */
+      header{
+         background-color:#0073e6; */ Cor de fundo azul */
+       color:white; /*Cor d
+      }
