@@ -8,8 +8,8 @@
     /*Estilo para o corpo da páginas */
     body{
       font-family:Arial, sans-serif; /* Define a fonte padrão da página */
-      background-color:#4f4f9; */ Cor de fundo suave para o corpo */
-      color;#333; /* Cor do texto, um tom de cinza escuro */
+      background-color:#f8f9f4; */ Cor de fundo suave para o corpo */
+      color:#333; /* Cor do texto, um tom de cinza escuro */
       line-height: 1.6; /* Altura da linha para facilitar a leitura */
       padding: 20px; /*Espaçamento interno em torno do conteúdo */
    
@@ -17,6 +17,47 @@
 
       /* Estilo para o cabeçalho */
       header{
-         background-color:#0073e6; */ Cor de fundo azul */
-       color:white; /*Cor d
+         background-color:#f4f9f7/* Cor de fundo azul */
+       color;white:/*Cor do texto branca */
+       padding;20px/* Centralizar o texto no cabeçalho */ 
+       text-alling: center; /* Centralizado no cabeçalho */
       }
+       /* Estilo para os titulos dentro do cabeçalho */
+       header h1{
+        font-size: 2.5em;*/ Tamanho da fonte do titulo  */
+        margin-botoom: 10px; /* Espaço abaixo do titulo */
+      
+       }
+        /* Estilo para o parágrafo dentro do cabeçalho */
+         header p{
+          font-size: 1.2em; */ Tamanho da fonte do paragráfo */
+         }
+        
+
+         /* Estilo pra a área principal do conteúdo */
+         main{
+          max-width: 800px;/* Limita a largura máxima da área de conteúdo  */
+           margin: 20 px auto; /* Centraliza o conteúdo  e adiciona margem */
+
+         }
+           /* Estio para cada seção dentro do conteúdo */
+            section{
+               margin-bottom: 20px;/* Espaçamento abaixo de cada seção */
+               padding: 20px; /* Esapaçamento interno */
+               background: color #7fffd4; */ Fundo branco para seções */
+               borde-radius:8px; /* Bordas arrendodadas */
+               box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombras sutis nas seções*/
+
+            }
+            /* Estilo para os titulois dentro das seções */
+            section h2 {
+               color:#f4f9f7; /* Cor azul para os titulos */
+               font-size:1.8em;/* Tamanho do titulo */
+               margin-bottom;/*  Espaçamento abaixo do titulo */
+
+            }
+
+             /* Estilo para o rodapé*/
+             footer{
+               background-color:#000000;/* Fundo escuro para o rodapé */
+             }
