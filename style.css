@@ -60,4 +60,9 @@
              /* Estilo para o rodapé*/
              footer{
                background-color:#000000;/* Fundo escuro para o rodapé */
+               color:white;/* Cor do texto branco */
+               text-allign: center; /*Centralizada o texto*/
+               padding:10px 0; /* Espaçamento interno*/
+               position: fixed; /* Fixa o rodapé na  pagina inferior da paginá*/
+               width: 100%; /* largura do rodapé
              }
